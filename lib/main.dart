@@ -193,14 +193,14 @@ class _PortfolioPageState extends State<PortfolioPage> {
           // So basically, yung print() is still there para sundin yung instruction, and yung AlertDialog is just an additional feature para visible din sa UI yung output.
           GestureDetector(
             onTap: () {
-              print('Examination Date: September 4, 2026');
+              print('Examination Date: September 5, 2026');
 
               showDialog(
                 context: context,
                 builder: (context) {
                   return AlertDialog(
                     title: const Text('Examination Date'),
-                    content: const Text('September 4, 2026'),
+                    content: const Text('September 5, 2026'),
                     actions: [
                       TextButton(
                         onPressed: () {
